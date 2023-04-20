@@ -1,0 +1,83 @@
+/* Set the font family and size for the entire document */
+body {
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  margin: 0;
+  padding: 0;
+}
+
+/* Style the section container */
+.section {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  box-sizing: border-box;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Style the "Our Services" heading */
+.our {
+  font-size: 36px;
+  font-weight: bold;
+  margin-bottom: 100px;
+  text-align: center;
+  color: #333;
+}
+
+/* Style the tabs container */
+.tabs {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 30px;
+  
+}
+
+/* Style the tab items */
+.tabs > div {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+/* Style the selected tab item */
+.tabs > div.selected {
+  background-color: #333;
+  color: #fff;
+}
+
+/* Style the lorem container */
+.lorem {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  margin-left: 200px;
+  margin-right: 200px;
+}
+
+/* Style the image */
+.lorem > div:nth-child(1) > img {
+  max-width: 192px;
+  height: 139px;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+/* Style the text */
+.lorem > div:nth-child(2) {
+  flex: 1;
+  font-size: 18px;
+  color: #666;
+  line-height: 1.5;
+}
+
+
+
+  
